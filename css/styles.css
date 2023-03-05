@@ -97,7 +97,6 @@ body {
   display: flex;
 }
 
-
 .nav-list {
   display: none;
 }
@@ -251,10 +250,10 @@ body {
   (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/mobbg-2x.jpg');
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/mobbg-2x.jpg');
   }
 }
 
@@ -353,9 +352,9 @@ body {
   margin: 0 auto;
 }
 .team {
-width: 100%;
-max-width: 428px;
-margin: 0 auto;
+  width: 100%;
+  max-width: 428px;
+  margin: 0 auto;
   background-color: var(--secondary-bgc);
 }
 .team-list {
@@ -997,23 +996,23 @@ margin: 0 auto;
   .hero {
     max-width: 798px;
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/tabletbg.jpg');
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/tabletbg.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/tabletbg-2x.jpg');
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/tabletbg-2x.jpg');
+    }
   }
-}
   /* --------------About us------------ */
 
   .infous-section {
@@ -1039,6 +1038,10 @@ margin: 0 auto;
     width: calc((100% - 24px) / 2);
   }
   /* --------------Team------------ */
+  .team {
+    width: 100%;
+    max-width: 768px;
+  }
   .team-section {
     padding-bottom: 104px;
   }
@@ -1173,23 +1176,23 @@ margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/bg-image.jpg');
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/bg-image.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/bg-image-2x.jpg');
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/bg-image-2x.jpg');
+    }
   }
-}
 
   .subtitle {
     font-weight: 500;
